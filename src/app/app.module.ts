@@ -6,7 +6,6 @@ import { HttpClientModule } from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GittyComponent } from './gitty/gitty.component';
-import { GittySearchComponent } from './gitty-search/gitty-search.component';
 import { GittyNavbarComponent } from './gitty-navbar/gitty-navbar.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
 import { GittyAboutComponent } from './gitty-about/gitty-about.component';
@@ -17,7 +16,6 @@ import { GittyHttpService } from './gitty-http/gitty-http.service';
   declarations: [
     AppComponent,
     GittyComponent,
-    GittySearchComponent,
     GittyNavbarComponent,
     ErrorPageComponent,
     GittyAboutComponent
