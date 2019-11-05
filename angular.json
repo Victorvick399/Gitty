@@ -118,8 +118,17 @@
               "devServerTarget": "Gitty:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/Gitty",
+            "netlifyToken": "fd315ed528f1897a72335e59a8d6c4544bfab6669ea9e6f76d9062b6ae7009e7",
+            "siteId": "eccee058-c30a-492c-8f51-3600e92e20a3"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "Gitty"
 }
