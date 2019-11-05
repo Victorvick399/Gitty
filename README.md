@@ -1,27 +1,36 @@
 # Gitty
+## Description 
+  Gitty is a web application where users can search and are able to see their github accounts and repositorys.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.9.
+## Setup
+#### Setup Requirements
+* A good internet connection.
+* A good web browsers.
 
-## Development server
+Gitty is a simple user friendly webb app to use.We did our best to reduce the difficulty just so as to achieve an easy and pleasing webb page.
+## Technologies Used
+*HTML.
+This was used to build the basic skeleton of the page.
+*CSS.
+This was used to style the page.
+*Typescript.
+It was used to achieve the functionality.
+*Angular.
+It was used to essentially build the page.It is the major part of the app.
+## Known bugs
+For now there are currently no known bugs of our page but if any arise do not hesitate to contact us.This can be accomplished through our e-mail Gitty12@gmail.com.
+## Support and contact details
+You can reach us through the following:
+*Email: Gitty12@gmail.com<br>
+*Enquiries contacts: 0723 987 654<br> 
+*Whatsapp queries: 0798 123 456
+### License
+MIT LICENSE
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Copyright (c) 2019 Victor Kinuthia
 
-## Code scaffolding
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
