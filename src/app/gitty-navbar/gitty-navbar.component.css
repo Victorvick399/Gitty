@@ -1,0 +1,12 @@
+nav{
+  padding: 20px;
+  background-color:navy;
+}
+a{
+  color: antiquewhite;
+  padding: 10px;
+  cursor: pointer;
+}
+.navbar-brand{
+  font-size: 30px;
+}
