@@ -1,1 +1,40 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search</title>
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form (ngSubmit)='bioInfo()' #searchForm='ngForm'>
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Enter github username" [(ngModel)]="username" name="username" (keyup)="bioInfo()">
+      </div>
+    </form>
+    <div class="row">
+      <div class="avatar">
+        <img class="circle-image" src="{{profile.avatar_url}}"  alt="Profile Image">
+      </div>
+    </div>
+    <h3 class="">Repositories</h3>
+    <div class="row">
+        <div class="card col-lg-5" *ngFor="let repo of repos">
+          <div class="row">
+            <div class="col-md-9">
+              <h3>{{repo.name}}</h3>
+              <p>{{repo.description}}</p>
+                <h4><a href="{{repo.html_url}}" target="_blank" class="btn btn-danger">Open on github</a>
+                </h4>
+            </div>
+            <div class="col-md-3">
+                <span class="btn btn-warning">Stars:{{repo.watchers}}</span><br>
+                <span class="btn btn-success">Forks:{{repo.forks}} </span>
+            </div>       
+          </div>
+            <hr>
+        </div>
+    </div>   
+</body>
+</html>
