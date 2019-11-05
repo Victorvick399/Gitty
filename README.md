@@ -9,13 +9,13 @@
 
 Gitty is a simple user friendly webb app to use.We did our best to reduce the difficulty just so as to achieve an easy and pleasing webb page.
 ## Technologies Used
-*HTML.
+* HTML.
 This was used to build the basic skeleton of the page.
-*CSS.
+* CSS.
 This was used to style the page.
-*Typescript.
+* Typescript.
 It was used to achieve the functionality.
-*Angular.
+* Angular.
 It was used to essentially build the page.It is the major part of the app.
 ## Known bugs
 For now there are currently no known bugs of our page but if any arise do not hesitate to contact us.This can be accomplished through our e-mail Gitty12@gmail.com.
