@@ -6,7 +6,7 @@ import { GittyAboutComponent } from './gitty-about/gitty-about.component';
 
 
 const routes: Routes = [
-  { path: 'gitty', component: GittyComponent},,
+  { path: 'gitty', component: GittyComponent},
   {path: 'about' , component: GittyAboutComponent},
   { path:'', redirectTo:"/about", pathMatch:"full"},
   { path:'**', component:ErrorPageComponent},
