@@ -33,12 +33,9 @@ username: string;
     let promise = new Promise((resolve, reject) => {
       this.http.get<ApiResponse>(environment.APIURL + this.username + environment.APIKEY).toPromise().then(response => {
         this.user.avatar_url = response.avatar_url
-        this.user.name = response.name
-        
+        this.user.name = response.name      
         this.user.followers = response.followers
-        this.user.following = response.following
-       
-  
+        this.user.following = response.following  
         resolve()
       },
         error => {
