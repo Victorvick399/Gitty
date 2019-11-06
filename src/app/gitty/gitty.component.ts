@@ -18,9 +18,7 @@ export class GittyComponent implements OnInit {
       repos: any = [];
       username: string;
       user: any;;
-    
-    
-    
+        
       constructor(private httpService:GittyHttpService) {
         this.httpService.getUser().subscribe(user => {
           this.user = user;
@@ -44,7 +42,7 @@ export class GittyComponent implements OnInit {
           this.user = this.httpService.user
           this.profile = profile
         });
-        this.httpService.getUser().subscribe(repos => {
+        this.httpService.getRepos().subscribe(repos => {
           this.repos = repos;
         });
       }
